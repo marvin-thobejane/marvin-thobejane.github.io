@@ -76,6 +76,10 @@ h6 {
     .header-container {
         background: #008899;
     }
+    .sp-image {
+        width: 373px;
+        height: 353px;
+    }
 }
 
 
@@ -1516,4 +1520,20 @@ section {
 .sp-image-sm {
     width: 373px;
     height: 353px;
+}
+
+.client-imgs div {
+    width: 350px;
+    height: 250px;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px) {
+    .sp-image {
+        width: 373px;
+        height: 253px;
+    }
+    .client-imgs div {
+        display: block;
+    }
 }
