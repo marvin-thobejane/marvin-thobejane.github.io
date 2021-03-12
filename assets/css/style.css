@@ -1080,6 +1080,7 @@ section {
 .team .member .pic {
     overflow: hidden;
     width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin: 0 auto 20px auto;
 }
@@ -1518,7 +1519,7 @@ section {
 }
 
 .sp-image-sm {
-    width: 373px;
+    width: 386px;
     height: 353px;
 }
 
@@ -1526,6 +1527,12 @@ section {
     width: 350px;
     height: 250px;
     margin: auto;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    padding: 10px
 }
 
 @media screen and (max-width: 575px) {
@@ -1536,4 +1543,35 @@ section {
     .client-imgs div {
         display: block;
     }
+    .about .content h2 {
+        font-size: 32px;
+    }
+    .mobile-nav-toggle {
+        padding-right: 30px;
+    }
+    .client-imgs div {
+        height: 150px;
+    }
 }
+
+@media (max-width: 1196px) {
+    .client-imgs div {
+        margin: 0;
+        height: 150px;
+    }
+}
+
+@media (max-width: 759px) {
+    .client-imgs div {
+        margin: auto;
+    }
+}
+
+
+/* @media (max-width: 390px) {
+    .sp-image,
+    .sp-image-sm {
+        width: fit-content;
+        height: 230px;
+    }
+} */
