@@ -128,7 +128,7 @@ h6 {
 #navigation-bar .logo img {
     padding: 0;
     margin: 0;
-    max-height: 40px;
+    max-height: 50px;
 }
 
 @media (max-width: 992px) {
@@ -144,9 +144,6 @@ h6 {
     } */
     .logo {
         margin-left: 5px;
-    }
-    #navigation-bar .logo {
-        /* padding-left: 0; */
     }
     #navigation-bar .logo h1 {
         font-size: 24px;
